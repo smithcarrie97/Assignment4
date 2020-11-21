@@ -1,0 +1,33 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+@font-face{
+font-family: "finkheavy"
+src: url('../fonts/FinkHeavy.ttf') format('truetype');
+}
+
+h1 {
+font-family:'finkheavy';
+font-size: 150px;
+color:lightgreen;
+position: absolute
+float:left;
+}
+
+body {
+  background-image: url('../images/backgroundac.jpg');
+}
+.nook {
+  float: right;
+  position: absolute;
+  z-index: 1;
+}
+
+ul {
+  font-family:'finkheavy';
+  font-size: 50px;
+  color:darkgreen;
+}
