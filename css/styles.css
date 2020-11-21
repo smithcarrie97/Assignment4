@@ -53,24 +53,31 @@ color:lightgreen;
 position: absolute
 float:left;
 padding-top: 300px;
+padding-left: 200px;
+z-index:49;
 }
 
 .bank {
   font-size:125px;
   margin-right:500px;
   margin-top:100px;
-  position:absolute;
+  position:relative;
+  z-index:99;
 }
 
 .welcome {
   background-image: url('../images/backgroundac.jpg');
-  padding-bottom: 400px;
+  padding-bottom: 100px;
   position:relative;
 }
 .nook {
   width:500px;
   height:500px;
-  float:right;
+  margin-top:175px;
+  margin-left:900px;
+  position: absolute;
+  z-index:50;
+
 
 }
 
@@ -86,6 +93,7 @@ padding-top: 300px;
 .bell2 {
   position:absolute;
   margin-left: 150px;
+  z-index:100;
   animation-name: coin;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -100,6 +108,7 @@ padding-top: 300px;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index:51;
 }
 
 .bell4 {
@@ -118,7 +127,7 @@ Nook Image Styling
 /*--------------------------------------------*/
 
 .heronook {
-  padding:125px;
+  padding:10px 125px;
   margin:auto;
 }
 
@@ -131,10 +140,26 @@ Options Styling
 
 li {
   font-family:'finkheavy';
-  font-size: 50px;
+  font-size: 35px;
   color:darkgreen;
   display:inline;
+  background-color: lightgray;
+  padding:50px 100px;
 }
+
+.options {
+    padding: 10px 10px;
+    margin-top:50px;
+    margin-left: 10px;
+
+}
+
+li:hover {
+  background-color:lightgreen;
+}
+
+
+
 
 
 @keyframes coin {
